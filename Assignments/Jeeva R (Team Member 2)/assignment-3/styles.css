@@ -1,0 +1,31 @@
+h1{
+        color: #111; 
+        font-family: 'Helvetica Neue',
+        sans-serif; font-size: 275px; 
+        font-weight: bold; 
+        letter-spacing: -1px; 
+        line-height: 1; 
+        text-align: center; 
+}
+img {
+   -webkit-filter: drop-shadow(10px 10px 10px #D58BDD);
+        filter: drop-shadow(10px 10px 10px #D58BDD);
+}
+body{
+        background-color: #F5E8C7;
+}
+.one{
+        background-color: #2192FF;
+}
+.two{
+        background-color: #38E54D;
+}
+.three{
+        background-color: #9CFF2E;
+}
+.four{
+        background-color: #FDFF00;
+}
+.five{
+        background-color: #FA2FB5;
+}
