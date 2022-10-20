@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Watson Assitant</title>
+	<style type="text/css">
+		.ne{
+			background-color: #1C6DD0;
+			border: solid;
+			border-width: 10px;
+			border-color: #354259;
+		}
+		h1 { color: ghostwhite ; font-family: 'Helvetica Neue', sans-serif; font-size: 100px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+	</style>
+</head>
+<body>
+<section class="ne">
+	<center>
+		<h1>Abimanyu's Hospital</h1>
+		<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "8149e025-9605-41ea-bead-e3c4051bea50", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "ea3129e5-390b-4194-9953-b1ccef69677f", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+	</center>
+</section>
+</body>
+</html>
